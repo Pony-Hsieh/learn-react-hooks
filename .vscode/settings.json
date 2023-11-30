@@ -1,0 +1,15 @@
+{
+  // 切換焦點時自動存檔
+  "files.autoSave": "onFocusChange",
+  // 存檔時自動排版
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.formatOnSave": false
+  },
+}
