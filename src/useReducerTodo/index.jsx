@@ -1,6 +1,5 @@
 /**
  * 先做新增、刪除就好，剩下的之後再優化即可
- * 先做到能新增
  */
 
 import { useState, useReducer } from 'react';

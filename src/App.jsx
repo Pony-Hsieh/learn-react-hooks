@@ -4,10 +4,14 @@ import { useState } from 'react';
 // import UseEffectPractice from "./pages/useEffect";
 // import UseMemoPractice from './pages/useMemo';
 // import UseCallbackPractice from "./pages/useCallback";
-// import ReactMemoPractice from './pages/reactMemo';
+import ReactMemoPractice from './pages/reactMemo';
 // import UseRefPractice from './pages/useRef';
 // import UseReducerPractice from './pages/useReducer';
-import UseReducerTodo from '../src/useReducerTodo/index';
+// import UseReducerTodo from '../src/useReducerTodo/index';
+// import ReactCreateContextPractice from './pages/APIs/createContext';
+// import ContextDemo from './contextDemo/index';
+// import UseKeyDown from './pages/customHook';
+import AbortController from './pages/abortController';
 
 import './App.css';
 
@@ -23,9 +27,13 @@ function App() {
       {/* <UseMemoPractice /> */}
       {/* <UseCallbackPractice /> */}
       {/* <ReactMemoPractice /> */}
+      {/* <ReactCreateContextPractice /> */}
+      {/* <ContextDemo /> */}
       {/* <UseRefPractice /> */}
       {/* <UseReducerPractice /> */}
-      <UseReducerTodo />
+      {/* <UseReducerTodo /> */}
+      {/* <UseKeyDown /> */}
+      <AbortController />
     </>
   );
 }
